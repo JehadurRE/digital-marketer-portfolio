@@ -1,6 +1,7 @@
 import { Download, Briefcase, ArrowDown, Mail, Linkedin, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroBg from '@/assets/hero-bg.jpg';
+import adiImage from '@/assets/adi.png';
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
@@ -43,7 +44,7 @@ const HeroSection = () => {
           <div className="w-32 h-32 mx-auto mb-8 glass rounded-full flex items-center justify-center animate-pulse-glow">
             <div className="w-24 h-24 bg-gradient-primary rounded-full flex items-center justify-center overflow-hidden">
               <img 
-                src="/src/assets/adi.png" 
+                src={adiImage} 
                 alt="Adinur Rahman Pantho"
                 className="w-full h-full object-cover"
               />

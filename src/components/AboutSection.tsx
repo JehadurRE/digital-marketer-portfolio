@@ -1,4 +1,5 @@
 import { Target, TrendingUp, Users, Award } from 'lucide-react';
+import adiImage from '@/assets/adi.png';
 
 const AboutSection = () => {
   const stats = [
@@ -61,7 +62,7 @@ const AboutSection = () => {
               <div className="w-48 h-48 mx-auto glass rounded-full flex items-center justify-center mb-6 animate-pulse-glow">
                 <div className="w-40 h-40 bg-gradient-primary rounded-full flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/src/assets/adi.png" 
+                    src={adiImage} 
                     alt="Adinur Rahman Pantho"
                     className="w-full h-full object-cover"
                   />

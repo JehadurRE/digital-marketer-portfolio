@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Home, User, Code, Briefcase, GraduationCap, Mail, Sun, Moon, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/components/ThemeProvider';
+import adiImage from '@/assets/adi.png';
 
 const FloatingNavigation = () => {
   const { theme, setTheme } = useTheme();
@@ -66,7 +67,7 @@ const FloatingNavigation = () => {
             <div className="flex items-center space-x-2 flex-shrink-0">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/src/assets/adi.png" 
+                  src={adiImage} 
                   alt="Adinur"
                   className="w-full h-full object-cover"
                 />
