@@ -7,7 +7,7 @@ const HeroSection = () => {
   const handleDownloadCV = () => {
     // Create a temporary download link for CV
     const link = document.createElement('a');
-    link.href = '#'; // Replace with actual CV file path
+    link.href = 'https://github.com/JehadurRE/digital-marketer-portfolio/raw/refs/heads/main/pdf/ADINUR%20RAHMAN%20PANTHO_DM.pdf'; // Replace with actual CV file path
     link.download = 'Adinur_Rahman_Pantho_CV.pdf';
     link.click();
   };
